@@ -284,7 +284,8 @@ body {
 .nulla-pg-5 {
     font-weight: 400;
     font-size: 15px;
-    margin: 1rem 16rem;
+    width: 50%;
+    margin: auto;
 }
 
 .pg-5-ipt {
