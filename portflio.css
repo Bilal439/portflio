@@ -458,8 +458,13 @@ body {
         margin: 1rem;
     }
 
+    .html {
+        display: block;
+    }
+
     .c {
         margin: 0;
+        display: block;
     }
 
     .cncn {
