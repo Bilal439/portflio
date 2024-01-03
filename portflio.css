@@ -376,17 +376,57 @@ body {
 
 .page-4-test {
     width: 100%;
-
 }
 
 .star-3 {
     display: flex;
     width: 100%;
+    color: #fff;
+    text-align: center;
 }
 
 .wh {
     width: 33.33%;
 }
+
+.pg-4-back {
+    background-image: url(images/ppp2.png);
+    width: 33.33%;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    margin: 10%;
+}
+
+.demo {
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    margin: 2rem 0em;
+    background-color: transparent;
+    color: #fff;
+}
+
+.coded-designed {
+    font-family: italic;
+    font-size: 10px;
+    font-weight: 600;
+    margin: 4%;
+}
+
+.eat {
+    font-size: 25px;
+    font-weight:700;
+    margin: 2%;
+}
+
+.restarent {
+    font-size: 10px;
+    font-weight: 500;
+}
+
 
 @media only screen and (max-width: 600px) {
     .main {
