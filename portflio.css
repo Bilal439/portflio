@@ -59,6 +59,7 @@ body {
 .main-2 .unorder {
     display: flex;
     column-gap: 10%;
+    margin: 6%;
 }
 
 .unorder .list {
