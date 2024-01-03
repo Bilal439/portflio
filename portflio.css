@@ -20,6 +20,7 @@ body {
     padding: 3rem;
     width: 50%;
 }
+
 /* test */
 
 .sub-1 {
@@ -349,7 +350,6 @@ body {
     color: #fff;
 }
 
-
 .flex-mb {
     display: flex;
     justify-content: space-around;
@@ -359,7 +359,7 @@ body {
 }
 
 .mini-side {
-    width:100%;
+    width: 100%;
 }
 
 .logo {
@@ -372,6 +372,20 @@ body {
 .three-bar {
     width: 30px;
     height: 20px;
+}
+
+.page-4-test {
+    width: 100%;
+
+}
+
+.star-3 {
+    display: flex;
+    width: 100%;
+}
+
+.wh {
+    width: 33.33%;
 }
 
 @media only screen and (max-width: 600px) {
