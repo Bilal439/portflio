@@ -58,7 +58,7 @@ body {
 
 .main-2 .unorder {
     display: flex;
-    column-gap: 10px;
+    column-gap: 10%;
 }
 
 .unorder .list {
