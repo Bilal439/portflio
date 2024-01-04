@@ -489,6 +489,26 @@ body {
         margin-left: 0;
         text-align: center;
     }
+    .eat {
+        font-size: 15px;
+        font-weight:500;
+        margin: 1%;
+    }
+
+    .d-flex {
+        margin: 0;
+    }
+
+    .demo {
+        font-size: 70%;
+    }
+}
+
+@media only screen and (max-width: 903px) {
+    .main-2 .unorder{
+        display: none;
+    }
+
 }
 
 @media only screen and (min-width: 600px) {
