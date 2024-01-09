@@ -370,14 +370,21 @@ body {
 
 .sub-mb-bc {
     position: absolute;
-    top: 65%;
-    left: 10%;
+    top: 70%;
+    left: 4%;
     margin: 4px;
     color: #fff;
     background-color: #0000008F;
     transform: skew(0deg, -12deg);
-    width: 100%;
+    width: 88%;
     height: 25%;
+}
+
+.sub-mb-bc-in {
+    transform: skew(0deg, 12deg);
+    position: relative;
+    top: 50%;
+    left: 25%;
 }
 
 .flex-mb {
@@ -485,7 +492,7 @@ body {
     font-size: 15px;
     font-weight: 700;
     font-family: Montserrat;
-    
+
 }
 
 @media only screen and (max-width: 600px) {
@@ -543,6 +550,10 @@ body {
         margin: 0;
     }
 
+    .c {
+        margin: 0;
+    }
+
     .lng {
         margin-left: 0;
         text-align: center;
@@ -574,7 +585,7 @@ body {
         width: 100%;
     }
 
-     .star-3c {
+    .star-3c {
         display: none;
     }
 }
