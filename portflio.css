@@ -368,25 +368,6 @@ body {
     position: relative;
 }
 
-.sub-mb-bc {
-    position: absolute;
-    top: 70%;
-    left: 4%;
-    margin: 4px;
-    color: #fff;
-    background-color: #0000008F;
-    transform: skew(0deg, -12deg);
-    width: 88%;
-    height: 25%;
-}
-
-.sub-mb-bc-in {
-    transform: skew(0deg, 12deg);
-    position: relative;
-    top: 50%;
-    left: 25%;
-}
-
 .flex-mb {
     display: flex;
     justify-content: space-around;
@@ -411,10 +392,6 @@ body {
     height: 20px;
 }
 
-.page-4-test {
-    width: 100%;
-}
-
 .star-3 {
     display: flex;
     width: 100%;
@@ -436,6 +413,8 @@ body {
 .pg-4-back {
     background-image: url(images/ppp2.png);
     width: 33.33%;
+    color: #fff;
+    text-align: center;
 }
 
 .d-flex {
@@ -491,8 +470,20 @@ body {
 .st {
     font-size: 15px;
     font-weight: 700;
-    font-family: Montserrat;
+    font-family: Montserrat;    
+}
 
+.fl {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.whn {
+    width: 33.33%;
+}
+
+.whnn{
+    width: 33.33%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -552,6 +543,7 @@ body {
 
     .c {
         margin: 0;
+        padding: 1rem;
     }
 
     .lng {
@@ -573,20 +565,35 @@ body {
         font-size: 70%;
     }
 
-    .star-3 {
-        display: block;
-    }
-
-    .wh {
-        width: 100%;
-    }
-
     .pg-4-back {
+        display: block;
         width: 100%;
     }
 
-    .star-3c {
+    .whn {
+        width: 100%;
+    }
+
+    .whnn {
         display: none;
+    }
+
+    .sub-mb-bc {
+        position: absolute;
+        top: 70%;
+        margin: 4px;
+        color: #fff;
+        background-color: #0000008F;
+        transform: skew(0deg, -12deg);
+        width: 90%;
+        height: 25%;
+    }
+    
+    .sub-mb-bc-in {
+        transform: skew(0deg, 12deg);
+        position: relative;
+        top: 30%;
+        left: 8%;
     }
 }
 
