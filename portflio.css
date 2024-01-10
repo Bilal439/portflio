@@ -54,10 +54,11 @@ body {
 }
 
 .sub-1 .ui {
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 800;
     color: #909090;
     padding-top: 8px;
+    font-family: Raleway;
 }
 
 .main-1 .sub-2 .vector {
@@ -258,7 +259,7 @@ body {
 }
 
 .port-btn {
-    border: 3px solid #000000;
+    border: 8px solid #000000;
     font-size: 30px;
     font-weight: 700;
     padding: 10px;
@@ -424,12 +425,22 @@ body {
 }
 
 .demo {
-    font-size: 15px;
+    font-size: 12px;
     font-weight: 600;
     border: none;
     margin: 2rem 0em;
     background-color: transparent;
     color: #fff;
+}
+
+.ppc {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    font-family: Montserrat;    
+    padding: 6px;
 }
 
 .coded-designed {
@@ -484,6 +495,12 @@ body {
 
 .whnn{
     width: 33.33%;
+}
+
+.l-ad {
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Nunito;
 }
 
 @media only screen and (max-width: 600px) {
