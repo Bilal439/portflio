@@ -611,7 +611,6 @@ body {
         transform: skew(0deg, 6deg);
         position: relative;
         top: 25%;
-        left: 8%;
     }
 
     .md-cat {
