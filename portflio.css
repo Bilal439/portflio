@@ -592,7 +592,7 @@ body {
     }
 
     .whnn {
-        display: none;
+        width: 100%;
     }
 
     .sub-mb-bc {
@@ -619,10 +619,6 @@ body {
         transform: skew(0deg, 6deg);
         position: relative;
         top: 25%;
-    }
-
-    .mt {
-        margin: 12%;
     }
 }
 
