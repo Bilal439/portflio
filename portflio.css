@@ -499,9 +499,8 @@ body {
         background: linear-gradient(90.18deg, #1D1D1D 31.59%, #1D1D1D 90.35%, #1D1D1D 90.35%);
     }
 
-    .read-btn {
-        position: relative;
-        left: 25%;
+    .read-btn-ctr {
+        text-align: center;
     }
 
     .pg-3-nulla {
@@ -572,6 +571,7 @@ body {
     .pg-4-back {
         display: block;
         width: 100%;
+        height: 300px;
     }
 
     .pg-4-img {
